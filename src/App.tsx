@@ -260,7 +260,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
               <img 
-                src="https://storage.googleapis.com/mle-process-public/media_data/94089903-8d07-449e-8c85-23f208479e9a/input_file_0.png" 
+                src="/BC.png" 
                 alt="Bain & Company" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -302,7 +302,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
                <img 
-                src="https://storage.googleapis.com/mle-process-public/media_data/94089903-8d07-449e-8c85-23f208479e9a/input_file_1.png" 
+                src="/AS.png" 
                 alt="Aftershoot" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -362,7 +362,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="https://storage.googleapis.com/mle-process-public/media_data/94089903-8d07-449e-8c85-23f208479e9a/input_file_2.png" 
+              src="/NEU.png" 
               alt="Northeastern University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
@@ -381,7 +381,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="https://storage.googleapis.com/mle-process-public/media_data/94089903-8d07-449e-8c85-23f208479e9a/input_file_3.png" 
+              src="/SNU.png" 
               alt="Shiv Nadar University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
