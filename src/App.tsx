@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { motion } from "motion/react";
 import { useState, useEffect } from "react";
 import { 
@@ -260,7 +255,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
               <img 
-                src="/BC.png" 
+                src="/bain-logo.png" 
                 alt="Bain & Company" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -302,7 +297,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
                <img 
-                src="/AS.png" 
+                src="/aftershoot-logo.png" 
                 alt="Aftershoot" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -362,7 +357,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="/NEU.png" 
+              src="/northeastern-logo.png" 
               alt="Northeastern University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
@@ -381,7 +376,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="/SNU.png" 
+              src="/sn-logo.png" 
               alt="Shiv Nadar University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
