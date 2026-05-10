@@ -212,7 +212,7 @@ const Hero = () => (
             <img 
               src={`${import.meta.env.BASE_URL}profile.png`} 
               alt="Shashwat Tiwari" 
-              className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl border-4 border-white relative z-10 bg-surface-low"
+              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-full shadow-2xl border-4 border-white relative z-10 bg-surface-low"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 // Fallback if image is not found
@@ -258,7 +258,7 @@ const Experience = () => (
         >
           <div className="absolute top-0 right-0 w-32 h-32 bg-[#cc0000]/5 rounded-bl-full transition-all group-hover:scale-150"></div>
           <div className="relative z-10">
-            <div className="h-12 mb-8 flex items-center">
+            <div className="h-20 mb-8 flex items-center">
               <img 
                 src={`${import.meta.env.BASE_URL}bain-logo.png`} 
                 alt="Bain & Company" 
@@ -300,7 +300,7 @@ const Experience = () => (
         >
           <div className="absolute top-0 right-0 w-32 h-32 bg-[#006397]/5 rounded-bl-full transition-all group-hover:scale-150"></div>
           <div className="relative z-10">
-            <div className="h-12 mb-8 flex items-center">
+            <div className="h-8 mb-8 flex items-center">
                <img 
                 src={`${import.meta.env.BASE_URL}aftershoot-logo.png`} 
                 alt="Aftershoot" 
@@ -383,7 +383,7 @@ const Education = () => (
             <img 
               src={`${import.meta.env.BASE_URL}sn-logo.png`}
               alt="Shiv Nadar University" 
-              className="w-20 h-20 object-contain"
+              className="w-26 h-20 object-contain"
               referrerPolicy="no-referrer"
             />
             <div>
