@@ -212,7 +212,7 @@ const Hero = () => (
             <img 
               src={`${import.meta.env.BASE_URL}profile.png`} 
               alt="Shashwat Tiwari" 
-              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover object-[center_15%] rounded-full shadow-2xl relative z-10"
+              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover object-[center_20%] rounded-full shadow-2xl relative z-10"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 // Fallback if image is not found
@@ -296,7 +296,7 @@ const Experience = () => (
         <motion.div 
           variants={itemVariants}
           whileHover={{ y: -8 }}
-          className="group bg-surface-lowest p-12 rounded-lg relative overflow-hidden transition-all duration-500 hover:shadow-[0_24px_48px_-12px_rgba(0,99,151,0.1)]"
+          className="group bg-surface-lowest p-12 rounded-lg relative overflow-visible transition-all duration-500 hover:shadow-[0_24px_48px_-12px_rgba(0,99,151,0.1)]"
         >
           <div className="absolute top-0 right-0 w-32 h-32 bg-[#006397]/5 rounded-bl-full transition-all group-hover:scale-150"></div>
           <div className="relative z-10">
@@ -304,7 +304,7 @@ const Experience = () => (
                <img 
                 src={`${import.meta.env.BASE_URL}aftershoot-logo.png`} 
                 alt="Aftershoot" 
-                className="h-16 w-auto object-contain"
+                className="h-10 w-auto object-contain pb-2"
                 referrerPolicy="no-referrer"
               />
             </div>
