@@ -371,7 +371,7 @@ const Education = () => (
               <h3 className="text-2xl font-black tracking-tight">Northeastern University</h3>
               <p className="font-bold text-sm uppercase tracking-wider mb-2" style={{ color: '#d41c2c' }}>MS Computer Science</p>
               <p className="text-on-surface-variant text-sm mb-1">GPA: 4.0/4.0</p>
-              <p className="font-mono text-xs opacity-50">Sept 2024 — Present</p>
+              <p className="font-mono text-xs opacity-50">Sept 2024 — May 2026</p>
             </div>
           </motion.div>
 
