@@ -649,7 +649,7 @@ const Footer = () => (
     <div className="flex flex-col md:flex-row justify-between items-center py-12 px-8 max-w-7xl mx-auto">
       <div className="mb-8 md:mb-0">
         <span className="text-lg font-bold text-on-surface">Shashwat Tiwari</span>
-        <p className="font-label text-[10px] uppercase tracking-[0.2em] text-on-surface/40 mt-2">© 2024 Shashwat Tiwari • Built with Editorial Chromodynamics</p>
+        <p className="font-label text-[10px] uppercase tracking-[0.2em] text-on-surface/40 mt-2">© 2024 Shashwat Tiwari </p>
       </div>
       <div className="flex gap-8 font-label text-xs uppercase tracking-widest">
         <a 
